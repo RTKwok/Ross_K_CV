@@ -57,7 +57,12 @@ edu <- tribble(
   "Msc First Class in Forensic Science", 
   2017, 2018, 
   "Staffordshire University", 
-  NA,
+  "Skills Learned: .",
+  
+  "Msc First Class in Forensic Science", 
+  2017, 2018, 
+  "Staffordshire University", 
+  "Courses Taken: .",
   
   "Msc in Genetics", 
   2016, 2017, 
@@ -87,10 +92,10 @@ conf <- tribble(
   "The Centre for Crime, Justice and Security, University of Staffordshire", 
   
   #"Funding", 
-  "Poster Presenter at The 28th International Congress of the International Society of Forensic Genetics", 
+  "Poster Presenter", 
   "Title: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes",
   2019, 
-  "Prague"
+  "The 28th International Congress of the International Society of Forensic Genetics, Prague"
 )
 
 # Publications ------------------------------------------------------------
@@ -123,9 +128,10 @@ memb <- tribble(
 skills <- tribble(
   ~area, ~skills,
   "Computer software", "Word, Excel, and related Microsoft software",
-  "Statistical software", "Minitab, SPSS, and (some) R",
+  "Statistical software", "Minitab and SPSS",
+  "Programming Languages", "R, Git and markdown",
   "Genomic software", "MrBayes, DNAsp, FinchTV, CLC, Figtree, Arlequin, ClustalX, Proseq, BLAST, Funcassociate, MultiArray Viewer, GeneMapper",
   "Laboratory skills", "Polymerase chain reaction techniques (qPCR), DNA/RNA extraction (phenol chloroform, chelex resin, silica spin columns and magnetic bead extractions), gel electrophoresis, agarose gel digestion, capillary electrophoresis, PCR thermocyclers (both for standard PCR and qPCR), fume hoods, gel electrophoresis equipment, heat blocks, qubit fluorometer and nanodrops",
   "Forensic skills", "GRIM, MSP, PLM, TLC, fingerprint analysis, DNA profiling, blood spatter and presumptive and confirmative body fluid testing",
-  "Langauges", "English (Fluent), Cantonese (Fluent)"
+  "Langauges", "English (Fluent), Cantonese (Basic)"
 )
