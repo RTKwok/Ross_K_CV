@@ -49,6 +49,10 @@ edu <- tribble(
   "Staffordshire University", 
   "Research Chapter 3: Genetic Evaluation of Counterfeit Banknotes.",
   
+  "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
+  2019, 2022, 
+  "Staffordshire University", 
+  "Skills Learned: .",
   
   "Msc First Class in Forensic Science", 
   2017, 2018, 
