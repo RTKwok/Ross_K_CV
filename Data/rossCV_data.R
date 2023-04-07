@@ -5,7 +5,7 @@ work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "Sales Assistant", 
   "The Works", 
-  NA, 2016, NA, NA, 
+  "May", 2016, "September", 2016, 
   "Edinburgh, Scotland", 
   "Position focussed on customer service and relations.",
   
@@ -32,30 +32,23 @@ work <- tribble(
 
 edu <- tribble(
   ~degree, ~startYear, ~endYear, ~inst, ~title,
-  "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
-  2019, 2022, 
-  "Staffordshire University", 
-  "Chapter 1: Literature Review.",
+
   
   "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
   2019, 2022, 
   "Staffordshire University", 
-  "Chapter 2: Evaluation of DNA in Counterfeit Banknotes.",
+  "Research Chapter 1: Evaluation of DNA in Counterfeit Banknotes.",
   
   "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
   2019, 2022, 
   "Staffordshire University", 
-  "Chapter 3: Simulated Procedural Study to Evaluate the Presence of DNA in Composite Counterfeit Banknotes.",
+  "Research Chapter 2: Simulated Procedural Study to Evaluate the Presence of DNA in Composite Counterfeit Banknotes.",
   
   "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
   2019, 2022, 
   "Staffordshire University", 
-  "Chapter 4: Genetic Evaluation of Counterfeit Banknotes.",
+  "Research Chapter 3: Genetic Evaluation of Counterfeit Banknotes.",
   
-  "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
-  2019, 2022, 
-  "Staffordshire University", 
-  "Chapter 5: Conclusions and Future Considerations.",
   
   "Msc First Class in Forensic Science", 
   2017, 2018, 
