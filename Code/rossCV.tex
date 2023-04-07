@@ -1,0 +1,207 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{990000}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Ross}{Kwok}
+
+\position{Geneticist}
+\address{Edinburgh, Scotland}
+
+\email{\href{mailto:ross.kwok@research.staffs.ac.uk}{\nolinkurl{ross.kwok@research.staffs.ac.uk}}}
+\orcid{xxx}
+\github{RTKwok}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{I am a XXX. I have worked on XXX. I am a proponent about XXX.
+This CV is version controlled and compiled with code.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {April 2023}
+    {Ross Kwok~~~·~~~CV}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{Staffordshire University}{PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes}{}{2019 --> 2022}{\begin{cvitems}
+\item Chapter 1: Literature Review.
+\item Chapter 2: Evaluation of DNA in Counterfeit Banknotes.
+\item Chapter 3: Simulated Procedural Study to Evaluate the Presence of DNA in Composite Counterfeit Banknotes.
+\item Chapter 4: Genetic Evaluation of Counterfeit Banknotes.
+\item Chapter 5: Conclusions and Future Considerations.
+\end{cvitems}}
+    \cventry{Staffordshire University}{Msc First Class in Forensic Science}{}{2017 --> 2018}{}\vspace{-4.0mm}
+    \cventry{University of Aberdeen}{Msc in Genetics}{}{2016 --> 2017}{}\vspace{-4.0mm}
+    \cventry{University of Aberdeen}{BSc (Hons) Upper Second Class in Zoology}{}{2012 --> 2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{employment}{%
+\section{Employment}\label{employment}}
+
+\begin{cventries}
+    \cventry{The Works}{Sales Assistant}{Edinburgh, Scotland}{ 2016 -->  }{\begin{cvitems}
+\item Position focussed on customer service and relations.
+\end{cvitems}}
+    \cventry{Chengdu Panda Breeding Research Base}{Volunteer}{Chengdu, China}{ 2015 -->  }{\begin{cvitems}
+\item Husbandry and care for pandas as part of a conservation project.
+\end{cvitems}}
+    \cventry{National Trust}{Volunteer}{Edinburgh, Scotland}{ 2022 -->  }{\begin{cvitems}
+\item Assisted in the construction of a `roundhouse`.
+\end{cvitems}}
+    \cventry{Oxfam Record Store}{Volunteer}{Edinburgh, Scotland}{ 2012 -->  2016}{\begin{cvitems}
+\item Sales assistant.
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{skillset}{%
+\section{Skillset}\label{skillset}}
+
+\begin{cventries}
+    \cventry{Word, Excel, and related Microsoft software}{Computer software}{}{}{}\vspace{-4.0mm}
+    \cventry{Minitab, SPSS, and (some) R}{Statistical software}{}{}{}\vspace{-4.0mm}
+    \cventry{MrBayes, DNAsp, FinchTV, CLC, Figtree, Arlequin, ClustalX, Proseq, BLAST, Funcassociate, MultiArray Viewer, GeneMapper}{Genomic software}{}{}{}\vspace{-4.0mm}
+    \cventry{Polymerase chain reaction techniques (qPCR), DNA/RNA extraction (phenol chloroform, chelex resin, silica spin columns and magnetic bead extractions), gel electrophoresis, agarose gel digestion, capillary electrophoresis, PCR thermocyclers (both for standard PCR and qPCR), fume hoods, gel electrophoresis equipment, heat blocks, qubit fluorometer and nanodrops}{Laboratory skills}{}{}{}\vspace{-4.0mm}
+    \cventry{GRIM, MSP, PLM, TLC, fingerprint analysis, DNA profiling, blood spatter and presumptive and confirmative body fluid testing}{Forensic skills}{}{}{}\vspace{-4.0mm}
+    \cventry{English (Fluent), Cantonese (Fluent)}{Langauges}{}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{conferences}{%
+\section{Conferences}\label{conferences}}
+
+\begin{cventries}
+    \cventry{Title: An Evaluation of Two Adhesive Media for the Recovery of DNA from Latent Finger-marks: A Preliminary Study}{Guest speaker}{The Centre for Crime, Justice and Security, University of Staffordshire}{2022}{}\vspace{-4.0mm}
+    \cventry{Title: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes}{Guest speaker}{The Centre for Crime, Justice and Security, University of Staffordshire}{2022}{}\vspace{-4.0mm}
+    \cventry{Title: XXX}{Presenter at The 28th International Congress of the International Society of Forensic Genetics}{Prague}{2019}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\begin{cventries}
+    \cventry{Kwok, R., Kenny, D. and Williams, G.A.}{Evaluating the viability of obtaining DNA profiles from DNA encapsulated between the layers of composite counterfeit banknotes.}{Forensics Science International Genetics International: Genetics Supplement Series, 7, pp. 438-440}{2019}{\begin{cvitems}
+\item https://doi.org/10.1016/j.fsigss.2019.10.043
+\end{cvitems}}
+    \cventry{Kwok, R., Parsons, R., Fieldhouse, S. and Walton-Williams, L.}{An evaluation of two adhesive media for the recovery of DNA from latent fingermarks: A preliminary study.}{Forensic Science International, [online] 344(4), 111574}{2023}{\begin{cvitems}
+\item https://doi.org/10.1016/j.forsciint.2023.111574
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{memberships}{%
+\section{Memberships}\label{memberships}}
+
+\begin{cventries}
+    \cventry{}{Chartered Society of Forensic Science}{}{}{}\vspace{-4.0mm}
+    \cventry{}{International Society of Forensic Genetics}{}{}{}\vspace{-4.0mm}
+\end{cventries}
+
+
+
+\end{document}

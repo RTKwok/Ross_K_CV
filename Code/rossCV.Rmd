@@ -26,7 +26,7 @@ packages <- c('vitae'     # The CV's LaTeX Template
              ,'glue'      # String Manipulation
             )
 xfun::pkg_attach2(packages, message = FALSE)
-source(file = "E:\\rossCV_data.r")
+source(file = "C:\\Users\\user\\OneDrive - Staffordshire University\\Job CV 2022\\Ross_K_CV\\Data\\rossCV_data.r")
 ```
 
 # Education

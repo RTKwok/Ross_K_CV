@@ -1,0 +1,42 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.4.7)  7 APR 2023 15:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./rossCV.tex
+(rossCV.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (awesome-cv.cls
+Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen139
+\ar@mcellbox=\box51
+\extrarowheight=\dimen140
+\NC@list=\toks16
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box52
+)
+
+! Sorry, but C:\Users\user\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex.exe did not succeed.
+
+! The log file hopefully contains the information to get MiKTeX going again:
+
+!   C:\Users\user\AppData\Local\MiKTeX\miktex\log\xelatex.log
+! xelatex: major issue: So far, you have not checked for MiKTeX updates.
