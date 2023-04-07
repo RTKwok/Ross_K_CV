@@ -23,7 +23,7 @@ work <- tribble(
   
   "Volunteer", 
   "Oxfam Record Store", 
-  NA, 2012, NA, 2016, 
+  "August", 2012, "July", 2016, 
   "Edinburgh, Scotland", 
   "Sales assistant."
 )
@@ -83,8 +83,8 @@ conf <- tribble(
   "The Centre for Crime, Justice and Security, University of Staffordshire", 
   
   #"Funding", 
-  "Presenter at The 28th International Congress of the International Society of Forensic Genetics", 
-  "Title: XXX",
+  "Poster Presenter at The 28th International Congress of the International Society of Forensic Genetics", 
+  "Title: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes",
   2019, 
   "Prague"
 )
@@ -96,7 +96,7 @@ works <- tribble(
   "Evaluating the viability of obtaining DNA profiles from DNA encapsulated between the layers of composite counterfeit banknotes.", 
   "Kwok, R., Kenny, D. and Williams, G.A.", 
   "2019", 
-  "Forensics Science International Genetics International: Genetics Supplement Series, 7, pp. 438-440", 
+  "Forensics Science International: Genetics Supplement Series, 7, pp. 438-440", 
   "https://doi.org/10.1016/j.fsigss.2019.10.043",
   
   "An evaluation of two adhesive media for the recovery of DNA from latent fingermarks: A preliminary study.", 

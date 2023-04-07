@@ -4,7 +4,7 @@ surname: Kwok
 position: "Geneticist"
 address: "Edinburgh, Scotland"
 github: RTKwok
-orcid: xxx
+orcid: 0000-0002-2569-3881
 email: "ross.kwok@research.staffs.ac.uk"
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
