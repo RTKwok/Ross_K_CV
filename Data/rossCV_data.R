@@ -54,32 +54,32 @@ edu <- tribble(
   "Staffordshire University", 
   "Skill Areas: DNA extraction, qPCR, DNA profiling and population genetics.",
   
-  "Msc First Class in Forensic Science", 
+  "MSc First Class in Forensic Science", 
   2017, 2018, 
   "University of Strathclyde", 
   "Skill Areas: crime scene analysis, handling of evidence, court procedure, application of chemical and biological based testing of evidence and genetic approaches of DNA evidence.",
   
-  "Msc First Class in Forensic Science", 
+  "MSc First Class in Forensic Science", 
   2017, 2018, 
   "University of Strathclyde", 
   "Courses Taken: practical crime scene and court exercise, forensic biology, essentials of forensic science (theory and practical) and practical examinations.",
   
-  "Msc First Class in Forensic Science", 
+  "MSc First Class in Forensic Science", 
   2017, 2018, 
   "University of Strathclyde", 
   "Masters Project: The Application of ISSR Primers to Identify Forensically Important Carrion Flies for The Estimation of Post-Mortem Intervals.",
   
-  "Msc in Genetics", 
+  "MSc in Genetics", 
   2016, 2017, 
   "University of Aberdeen", 
   "Skill Areas: cell culture, extraction and analysis of RNA/DNA and statitistical evaluation of genomic population dynamics.",
   
-  "Msc in Genetics", 
+  "MSc in Genetics", 
   2016, 2017, 
   "University of Aberdeen", 
   "Courses Taken: bioinformatics, introductory immunology, genome-enabled medicine, mendelian genetics, applied statistics, and immunogenetics.",
   
-  "Msc in Genetics", 
+  "MSc in Genetics", 
   2016, 2017, 
   "University of Aberdeen", 
   "Masters Project: Establishing the Phylogenetic Relationships of Birds: Integrating Conservation and Genetics.",
