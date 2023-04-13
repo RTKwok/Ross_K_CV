@@ -11,13 +11,13 @@ work <- tribble(
   
   "Volunteer", 
   "Chengdu Panda Breeding Research Base", 
-  NA, 2015, NA, NA, 
+  "31 June", 2015, "14 July", 2015, 
   "Chengdu, China", 
   "Husbandry and care for pandas as part of a conservation project.",
   
   "Volunteer", 
   "National Trust", 
-  NA, 2022, NA, NA, 
+  "8 April", 2012, "14 April", 2012, 
   "Edinburgh, Scotland", 
   "Assisted in the construction of a `roundhouse`.",
   
@@ -52,27 +52,37 @@ edu <- tribble(
   "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
   2019, 2022, 
   "Staffordshire University", 
-  "Skills Learned: .",
+  "Skills Areas: DNA extraction, qPCR, DNA profiling, population genetics.",
   
   "Msc First Class in Forensic Science", 
   2017, 2018, 
-  "Staffordshire University", 
-  "Skills Learned: .",
+  "University of Strathclyde", 
+  "Skill Areas: crime scene analysis, handling of evidence, court procedure, application of chemical and biological based testing of evidence and genetic approaches of DNA evidence.",
   
   "Msc First Class in Forensic Science", 
   2017, 2018, 
-  "Staffordshire University", 
-  "Courses Taken: .",
+  "University of Strathclyde", 
+  "Courses Taken: practical crime scene and court exercise, forensic biology, essentials of forensic science (theory and practical) and practical examinations.",
   
   "Msc in Genetics", 
   2016, 2017, 
   "University of Aberdeen", 
-  NA,
+  "Skill Areas:.",
+  
+  "Msc in Genetics", 
+  2016, 2017, 
+  "University of Aberdeen", 
+  "Courses Taken: bioinformatics, introductory immunology, genome-enabled medicine, mendelian genetics, applied statistics, and immunogenetics.",
   
   "BSc (Hons) Upper Second Class in Zoology", 
   2012, 2016, 
   "University of Aberdeen", 
-  NA
+  "Skill Areas:.",
+  
+  "BSc (Hons) Upper Second Class in Zoology", 
+  2012, 2016, 
+  "University of Aberdeen", 
+  "Courses Taken: molecular ecology and evolution, ecological and environmental modelling, conservation in practice, wildlife conservation and management."
 )
 
 # Awards ------------------------------------------------------------------
