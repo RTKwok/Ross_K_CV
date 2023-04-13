@@ -52,7 +52,7 @@ edu <- tribble(
   "PhD in Forensic Science: Evaluating the Viability of Obtaining DNA Profiles from DNA Encapsulated Within the Layers of Counterfeit Banknotes", 
   2019, 2022, 
   "Staffordshire University", 
-  "Skills Areas: DNA extraction, qPCR, DNA profiling, population genetics.",
+  "Skill Areas: DNA extraction, qPCR, DNA profiling and population genetics.",
   
   "Msc First Class in Forensic Science", 
   2017, 2018, 
@@ -64,26 +64,42 @@ edu <- tribble(
   "University of Strathclyde", 
   "Courses Taken: practical crime scene and court exercise, forensic biology, essentials of forensic science (theory and practical) and practical examinations.",
   
+  "Msc First Class in Forensic Science", 
+  2017, 2018, 
+  "University of Strathclyde", 
+  "Masters Project: The Application of ISSR Primers to Identify Forensically Important Carrion Flies for The Estimation of Post-Mortem Intervals.",
+  
   "Msc in Genetics", 
   2016, 2017, 
   "University of Aberdeen", 
-  "Skill Areas:.",
+  "Skill Areas: cell culture, extraction and analysis of RNA/DNA and statitistical evaluation of genomic population dynamics.",
   
   "Msc in Genetics", 
   2016, 2017, 
   "University of Aberdeen", 
   "Courses Taken: bioinformatics, introductory immunology, genome-enabled medicine, mendelian genetics, applied statistics, and immunogenetics.",
   
-  "BSc (Hons) Upper Second Class in Zoology", 
-  2012, 2016, 
+  "Msc in Genetics", 
+  2016, 2017, 
   "University of Aberdeen", 
-  "Skill Areas:.",
+  "Masters Project: Establishing the Phylogenetic Relationships of Birds: Integrating Conservation and Genetics.",
   
   "BSc (Hons) Upper Second Class in Zoology", 
   2012, 2016, 
   "University of Aberdeen", 
-  "Courses Taken: molecular ecology and evolution, ecological and environmental modelling, conservation in practice, wildlife conservation and management."
-)
+  "Skill Areas: DNA extraction and analysis, applied statistics, conservation and surveying techniques, experimental design and ecological modelling.",
+  
+  "BSc (Hons) Upper Second Class in Zoology", 
+  2012, 2016, 
+  "University of Aberdeen", 
+  "Selection of Courses Taken: molecular ecology and evolution, ecological and environmental modelling, conservation in practice, wildlife conservation and management.",
+  
+  "BSc (Hons) Upper Second Class in Zoology", 
+  2012, 2016, 
+  "University of Aberdeen", 
+  "Honours Project: Conservation Genetics in North Atlantic Porbeagle Sharks.",
+  
+  )
 
 # Awards ------------------------------------------------------------------
 
@@ -137,8 +153,7 @@ memb <- tribble(
 
 skills <- tribble(
   ~area, ~skills,
-  "Computer software", "Word, Excel, and related Microsoft software",
-  "Statistical software", "Minitab and SPSS",
+  "Computer and Statistical software", "Word, Excel, related Microsoft software, Minitab and SPSS",
   "Programming Languages", "R, Git and markdown",
   "Genomic software", "MrBayes, DNAsp, FinchTV, CLC, Figtree, Arlequin, ClustalX, Proseq, BLAST, Funcassociate, MultiArray Viewer, GeneMapper",
   "Laboratory skills", "Polymerase chain reaction techniques (qPCR), DNA/RNA extraction (phenol chloroform, chelex resin, silica spin columns and magnetic bead extractions), gel electrophoresis, agarose gel digestion, capillary electrophoresis, PCR thermocyclers (both for standard PCR and qPCR), fume hoods, gel electrophoresis equipment, heat blocks, qubit fluorometer and nanodrops",

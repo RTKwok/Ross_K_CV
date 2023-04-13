@@ -8,7 +8,7 @@ orcid: 0000-0002-2569-3881
 email: "ross.kwok@research.staffs.ac.uk"
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "I am a genetiicist specilised in population genetics and genomic laboratory practices. I have recently completed my PhD studies in Forensic Science at Staffordshire University and I am due to graduate in July 2023. My research investigated the feasibility of acquiring DNA profiles from counterfeit currency. My previous and current degrees have provided me with significant experience in using equipment specific to DNA analysis including thermal cyclers and genetic analysers alongside various techniques in DNA extraction and genetic sample evaluation. I am experienced in adopting objective analytical approaches to examinations and experimental design."
+aboutme: "I am a geneticist specilised in population genetics and genomic laboratory practices. I have recently completed my PhD studies in Forensic Science at Staffordshire University and I am due to graduate in July 2023. My research investigated the feasibility of acquiring DNA profiles from counterfeit currency. My previous and current degrees have provided me with significant experience in using equipment specific to DNA analysis including thermal cyclers and genetic analysers alongside various techniques in DNA extraction and genetic sample evaluation."
 docname: CV
 output: vitae::awesomecv
 ---
